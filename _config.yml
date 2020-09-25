@@ -103,7 +103,7 @@ scheme: Mist
 #scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false 
 
 
 # ---------------------------------------------------------------
@@ -245,7 +245,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enable: true
+    enable: false 
     another_day: true
   categories: true
 
@@ -691,9 +691,9 @@ cnzz_siteid:
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.
 # Do not enable both `valine.visitor` and `leancloud_visitors`.
 leancloud_visitors:
-  enable: false
-  app_id: # <your app id>
-  app_key: # <your app key>
+  enable: true 
+  app_id: wpwDW67X1QTfk2g2rSlI71rq-gzGzoHsz # <your app id>
+  app_key: gkjRvMfmoQc0gPQ2InWO7weL # <your app key>
   # Required for apps from CN region
   server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
